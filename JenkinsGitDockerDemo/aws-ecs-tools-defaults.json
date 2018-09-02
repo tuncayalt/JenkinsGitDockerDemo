@@ -1,0 +1,22 @@
+
+{
+    "region" : "eu-central-1",
+    "profile" : "default",
+    "configuration" : "Release",
+    "tag"           : "jenkinsgitdockerdemo:latest",
+    "cluster"       : "cluster01",
+    "launch-type"   : "EC2",
+    "task-definition-name" : "JenkinsGitDockerDemoTask04",
+    "task-definition-network-mode" : "bridge",
+    "task-definition-task-role"    : "arn:aws:iam::584542797573:role/ecsTaskExecutionRole",
+    "container-name"               : "JenkinsGitDockerDemoCont04",
+    "container-memory-hard-limit"  : 128,
+    "container-port-mapping"       : "0:80",
+    "container-environment-variables" : "",
+    "skip-image-push"                 : false,
+    "cluster-service"                 : "JenkinsGitDockerDemo-Service",
+    "desired-count"                   : 1,
+    "deployment-minimum-healthy-percent" : 50,
+    "deployment-maximum-percent"         : 200,
+    "vstoolkit-deployment-mode"          : "DeployService"
+}
