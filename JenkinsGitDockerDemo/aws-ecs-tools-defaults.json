@@ -11,7 +11,7 @@
     "task-definition-task-role"    : "arn:aws:iam::584542797573:role/ecsTaskExecutionRole",
     "container-name"               : "JenkinsGitDockerDemoCont04",
     "container-memory-hard-limit"  : 128,
-    "container-port-mapping"       : "0:80",
+    "container-port-mapping"       : "0:5000",
     "container-environment-variables" : "",
     "skip-image-push"                 : false,
     "cluster-service"                 : "JenkinsGitDockerDemo-Service",
